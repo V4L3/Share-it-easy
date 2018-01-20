@@ -1,4 +1,4 @@
-# webextended
+# Share it easy
 
 A Student-Prorejct realised with Vue.js (https://github.com/vuejs/vue) and Firebase (https://firebase.google.com/).
 
