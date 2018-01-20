@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+//VARIABLES
+$primary-color: rgb(53,56,70);
+$secondary-color: rgb(80,227,194);
+$tertiary-color: rgb(151,151,151);
+$red: rgb(249,55,96);
+$gradient: linear-gradient(-180deg, #F93760 0%, #FA6D41 100%);
+$primary-font: 'Open Sans', sans-serif;
+
+:focus { outline: none; }
+
+//AUTHENTICATION
+#authentication{
+  background-image: $gradient;
+  width: 100vw;
+  height: 100vh;
+}
+
+#intro {
+  height: 55vh;
+
+  img {
+    width: 50vw;
+    max-width: 200px;
+    margin-left: 25vw;
+    margin-top: 13vh;
+  }
+}
+
+.login{
+  height: 45vh;
+}
+
+.loginField{
+  padding-left: 15px;
+  background-color:$primary-color;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  p{
+    font-family: $primary-font;
+    font-size: 0.7em;
+    color: #FFFFFF;
+    letter-spacing: 1.75px;
+    padding: 5px 0 0 0;
+    margin: 0;
+  }
+
+  input{
+    color: $secondary-color;
+    border: none;
+    background-color: $primary-color;
+    font-size: 1.5em;
+    letter-spacing: 1.75px;
+    margin: 5px 0;
+  }
+
+  input::placeholder{
+    color: $secondary-color;
+  }
+
+}
+
+.loginBtn {
+  padding-left: 15px;
+  background-color:$primary-color;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border: none;
+
+  p{
+    color: $secondary-color;
+    border: none;
+    background-color: $primary-color;
+    font-size: 1.5em;
+    letter-spacing: 1.75px;
+    margin: 5px 0;
+  }
+
+}
+
+.signUpBtn{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+//BASE HTML
+body{
+    margin: 0;
+    background-color: $primary-color;
+}
+
+input {
+  all: none;
+  max-width: 100%
+}
+
+button{
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.addButton{
+  margin: auto;
+  width: 15%;
+
+  img {
+    margin-top: 10px;
+    width: 50px;
+  }
+  
+}
+
+.addButtonProject {
+  width: 100vw;
+
+  .entryButton{
+    float:  right;
+
+    img {
+      width: 35%;
+    }
+
+  }
+  .userButton{
+    float:  left;
+
+    img {
+      width: 25%;
+    }
+
+  }
+  
+}
+
+.links{
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+  
+  a{
+    float: left;
+  }
+}
+
+.edit{
+  
+  button{
+    margin-right: 5vw;
+    color: $red;
+    float: right;
+  }
+
+  img{
+    width: 15px;
+  }
+  
+}
+
+//HOME
+.user {
+    height: 40vh;
+
+    img {
+      width: 50vw;
+      max-width: 200px;      
+      margin-left: 25vw;
+      margin-top: 6vh;
+    }
+}
+
+.myprojects{
+    height: 45vh;
+    overflow: scroll;
+}
+
+.project {
+  padding: 10px 0 10px 5vw;
+  width: 95vw;
+  background-color: #353846;
+  margin-bottom: 10px;
+
+    hr {
+      border-bottom: 0.1px solid $tertiary-color; 
+      width: 90vw;     
+    }
+
+    a{
+      font-size: 1em;
+      font-family: $primary-font;
+      //font-size: 48px;
+      color: $secondary-color;
+      letter-spacing: 3.11px;
+      text-decoration: none;
+    }
+
+    h3{
+      width: 100%;
+      color: $secondary-color;
+      text-transform: uppercase;
+      font-family: $primary-font;
+      font-size: 1.5em;
+      letter-spacing: 3.11px;
+      line-height: 0;
+      text-decoration: none;
+      font-weight: normal;
+    }
+}
+
+//PROJECT
+
+.head-nav{
+  width: 100vw;
+  height: auto;
+  min-height: 5vh;
+}
+
+.project-title{
+  width: 80vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  float: left;
+
+  p{
+    width: 100%;
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-family: $primary-font;
+    font-size: 1.5em;
+    letter-spacing: 3.11px;
+    line-height: 0;
+    margin: 25px 0 35px 5vw;
+  }
+
+}
+
+.back{
+  height: auto;
+  width: 10%;
+  background-color: $primary-color;
+  font-size: 2em;
+  float: right;
+  margin: 20px 15px 0 0;
+  font-family: $primary-font;
+  line-height: 0;
+
+  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #F93760;
+  }
+
+}
+
+#visual{
+    height: 80vh;
+    width: 90vw;;
+    overflow: scroll;
+    padding: 0 5vw;
+
+    h1{
+      color: $secondary-color;
+    }
+
+    .dots button{
+      color: $secondary-color;
+      font-size: 1em;
+      margin: 10px 10% 0 2px;
+    }
+
+    .active{
+      text-decoration: underline;
+    }
+}
+
+.agile__track{
+  align-items: flex-start !important;
+  padding: 20px 0;
+}
+
+//TIMELINE AND BARCHART
+.placeholder{
+
+  img{
+    max-width: 100%;
+  }
+}
+
+//LIST
+.entrylist {
+    padding: 5px 0;
+    width: 100%;
+    color: $secondary-color;
+    min-height: 40px;
+}
+
+.entry {
+  color: $secondary-color; 
+  margin: 0 0 20px 0;
+  
+  .entryTitle{
+    width: 30%;
+    margin: 0;
+    float: left;
+  }
+  
+  .entryAmount{
+    width: 30%;
+    margin: 0;
+    float: right;
+  }
+
+  .entryDate{
+    width: 30%;
+    float: right;
+    margin: 0;
+  }
+
+}
+
+.editEntry button {
+  color: $red;
+  margin: 0 10px 0 0;
+}
+
+//MODAL
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: table;
+  transition: opacity .3s ease;
+  }
+  
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+  
+.modal-container {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  transition: all .3s ease;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: $gradient;
+}
+  
+.modal-header {
+  height: 10px;
+  width: 100%;
+  margin-bottom: 3px;
+
+  h3 {
+    margin: 0;
+    color: $primary-color;
+    float: left
+
+  }
+
+  button{
+    float: right;
+    color: $primary-color;
+    font-size: 1.3em;
+    line-height: 0;    
+    font-weight: bold;
+  }
+
+}
+
+.modal-footer{
+
+
+  button{
+    text-align: center;
+    width: 100%;
+  }
+
+}
+
+.modal-body {
+  margin: 20px 0;
+
+  .loginField{
+    width: auto;
+  }
+
+  .loginBtn{
+    width: auto;
+  }
+
+}
+  
+.modal-default-button {
+  float: right;
+}
+  
+.modal-enter {
+  opacity: 0;
+}
+  
+.modal-leave-active {
+  opacity: 0;
+}
+  
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+  
+.datepicker {
+  margin: auto;
+
+  .vdp-datepicker__calendar{
+    background-color: $primary-color;
+    border: none;
+    left: -15px;
+
+    .cell.selected{
+      background-color: $secondary-color;
+      color: $primary-color;
+      font-weight: bold;
+    }
+
+  }
+
+}
+
+//VUE DEFAULT
+#app {
+  font-family: $primary-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  color:$secondary-color;
+}

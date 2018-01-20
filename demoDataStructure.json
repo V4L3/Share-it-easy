@@ -1,0 +1,37 @@
+{
+	"users":{
+		"u1":{
+			"lastname": "Berger",
+			"firstname": "Valentin",
+			"mail": "valentin.berge@stud.hslu.ch",
+			"password": "aslkdjfkalsdjfkjaskdjf"
+		}
+
+	},
+	"projects":{
+		"p1": {
+			"titel": "Weekendtrip",
+			"users" :{
+				"u1" : true,
+				"u2" : true,
+			}
+		}
+	},
+	"entrys": {
+		"p1": {
+			"entry1": {
+				"titel": "Einkauf",
+				"amount": "20",
+				"date": "20.11.17",
+				"user": "u1"
+			},
+			"entry2":{…},
+			"entry3":{…},
+			"entry4":{…},
+		},
+		"p2": {…},
+		"p3": {…},
+		"p4": {…},
+		"p5": {…},
+	}
+}

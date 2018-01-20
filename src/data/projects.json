@@ -1,0 +1,79 @@
+[
+  {
+    "project_id": "p0",
+    "project_name": "Weekend Trip",
+    "user_list": [],
+    "entrys": [
+      {
+        "title": "Einkauf",
+        "date": "20 Jan",
+        "sum": "30"
+      },
+      {
+        "title": "Einkauf",
+        "date": "21 Jan",
+        "sum": "31"
+      },
+      {
+        "title": "Einkauf",
+        "date": "22 Jan",
+        "sum": "32"
+      }
+    ]
+  },
+  {
+    "project_id": "p1",
+    "project_name": "Car sharing",
+    "user_list": [],
+    "entrys": []
+  },
+  {
+    "project_id": "p2",
+    "project_name": "Holiday",
+    "user_list": [],
+    "entrys": []
+  },
+  {
+    "project_id": "p3",
+    "project_name": "Studiparty",
+    "user_list": [],
+    "entrys": []
+  },
+  {
+    "project_id": "p4",
+    "project_name": "Studiparty",
+    "user_list": [],
+    "entrys": []
+  },
+  {
+    "project_id": "p5",
+    "project_name": "Studiparty",
+    "user_list": [],
+    "entrys": [
+      [
+        "2012-10-02",
+        200
+      ],
+      [
+        "2012-10-09",
+        300
+      ],
+      [
+        "2012-10-12",
+        150
+      ]
+    ]
+  },
+  {
+    "project_id": "p6",
+    "project_name": "Studiparty",
+    "user_list": [],
+    "entrys": []
+  },
+  {
+    "project_id": "p7",
+    "project_name": "Studiparty",
+    "user_list": [],
+    "entrys": []
+  }
+]
